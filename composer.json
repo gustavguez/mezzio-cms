@@ -1,0 +1,27 @@
+{
+    "name": "gustavguez/psr7-cms",
+    "description": "Simple PSR-7 CMS Handlers.",
+    "license": "BSD-2-Clause",
+    "keywords": [
+		"cms",
+		"laminas",
+		"psr-7",
+		"gustavguez"
+	],
+	"require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "homepage": "https://github.com/gustavguez/psr7-cms",
+    "authors": [
+        {
+            "name": "Gustavo Rodríguez",
+            "email": "gustavguez@gmail.com",
+            "homepage": "http://www.gustavorodriguez.com.uy"
+        }
+	],
+    "autoload": {
+        "psr-4": {
+            "Gustavguez\\Psr7Cms\\": "src/"
+        }
+    }
+}

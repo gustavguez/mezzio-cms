@@ -1,1 +1,1 @@
-# psr7-cms
+# laminas-cms
