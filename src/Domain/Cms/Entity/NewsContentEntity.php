@@ -5,7 +5,7 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="App\Domain\Finances\Repository\TransactionRepository")
  * @ORM\Table(name="news_contents")
  */
 class NewsContentEntity extends ContentEntity {
