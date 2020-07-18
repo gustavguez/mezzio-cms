@@ -1,10 +1,11 @@
 {
-    "name": "gustavguez/psr7-cms",
+    "name": "gustavguez/mezzio-cms",
     "description": "Simple PSR-7 CMS Handlers.",
     "license": "BSD-2-Clause",
     "keywords": [
 		"cms",
 		"laminas",
+	    "mezzio",
 		"psr-7",
 		"gustavguez"
 	],
@@ -15,7 +16,7 @@
         "cocur/slugify": "^4.0",
         "imagine/imagine": "^1.2"
     },
-    "homepage": "https://github.com/gustavguez/psr7-cms",
+    "homepage": "https://github.com/gustavguez/mezzio-cms",
     "authors": [
         {
             "name": "Gustavo Rodríguez",
@@ -25,7 +26,7 @@
 	],
     "autoload": {
         "psr-4": {
-            "Gustavguez\\Psr7Cms\\": "src/"
+            "Gustavguez\\MezzioCms\\": "src/"
         }
     }
 }
